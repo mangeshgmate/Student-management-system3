@@ -1,6 +1,5 @@
 // Fallback to EC2 IP if environment variable is not defined
-export const API_BASE_URL = 
-  process.env.REACT_APP_API_URL || "http://YOUR_EC2_PUBLIC_IP";
+export const API_BASE_URL = "/api";
 
 // Example helper for fetch requests
 export const fetchAPI = async (endpoint, options = {}) => {
